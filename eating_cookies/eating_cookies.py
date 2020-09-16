@@ -2,10 +2,11 @@
 Input: an integer
 Returns: an integer
 '''
-def eating_cookies(n):
+def eating_cookies(n, eaten = None):
     left = n
     # create a list that will hold possible combinations depending on how many cookies exist
-    eaten = [0] * (n + 1)
+    if not eaten:
+        eaten = [0] * (n + 1)
     # set up base cases
     # if theres 0 or only one, theres only 1 way
     if left <= 1:
