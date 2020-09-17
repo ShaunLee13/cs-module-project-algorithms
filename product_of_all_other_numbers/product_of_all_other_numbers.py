@@ -2,7 +2,7 @@
 Input: a List of integers
 Returns: a List of integers
 '''
-def product_of_all_other_numbers(arr):
+def product_of_all_other_numbers(arr): # runtime O(n^2?), space O(n)
     # determine the size of our array to
     # allocate memory for a new array to store products
     # which will start at 1 

@@ -2,7 +2,7 @@
 Input: a List of integers as well as an integer `k` representing the size of the sliding window
 Returns: a List of integers
 '''
-def sliding_window_max(nums, k):
+def sliding_window_max(nums, k): # runtime O(n^2?), space O(n)
     # create an array to store all of the max values
     max_vals = []
     
